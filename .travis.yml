@@ -7,4 +7,4 @@ before_install:
   - docker build -t USERNAME/react_app -f Dockerfile.dev .
 
 script:
-  - docker run USERNAME/react_app npm run test -- -- coverage
+  - docker run -e CI=true USERNAME/react_app npm run test

@@ -1,10 +1,10 @@
 language: generic
-sudo: required
+
 services:
   - docker
 
 before_install:
-  - docker build -t bvalerin/react_app -f Dockerfile.dev .
+  - docker build -t USERNAME/react_app -f Dockerfile.dev .
 
 script:
-  - docker run bvalerin/react_app npm run test -- -- coverage
+  - docker run USERNAME/react_app npm run test -- -- coverage

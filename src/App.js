@@ -7,7 +7,7 @@ function App() {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
-          I was Changed!
+          Holis soy un cambio nuevo para que se actualice de forma automatica en el servidor..! 
         </p>
         <a
           className="App-link"

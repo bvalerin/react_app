@@ -1,12 +1,1 @@
-body {
-margin: 0; 
-padding:0;
-background-color: dimgrey;
-}
-
-
-h1{
-    margin-top: 10%;
-    color:#FFF;
-    text-align: center;
-}
+@import '~antd/dist/antd.css';
